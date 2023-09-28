@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-09-28T02:26:17.959Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0" etag="x5HkTIFZV-5P_xpsTo_W" version="21.8.2" type="device">
+  <diagram name="Page-1" id="5pSNgPLW_QEbZbYDwLdu">
+    <mxGraphModel dx="1235" dy="675" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="QWxD-bKKWiwJYX4_kgw--3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="432.4999999999998" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWxD-bKKWiwJYX4_kgw--3" target="QWxD-bKKWiwJYX4_kgw--4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--3" value="call&lt;br&gt;ExecutionLayer::notify_forkchoice_updated" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="314" y="280" width="237" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWxD-bKKWiwJYX4_kgw--4" target="QWxD-bKKWiwJYX4_kgw--5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--4" value="call Engine::notify_forkchoice_updated" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="335" y="360" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWxD-bKKWiwJYX4_kgw--5" target="QWxD-bKKWiwJYX4_kgw--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--5" value="call HttpJsonRpc::forkchoice_updated" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="340" y="440" width="185" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QWxD-bKKWiwJYX4_kgw--6" target="QWxD-bKKWiwJYX4_kgw--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--6" value="call api.get_engine_capabilities" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="357.5" y="520" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--7" value="capable of&#xa;forkchoice_updated_v2?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="600" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--21" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="252.5" y="720" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--20" value="" style="group" vertex="1" connectable="0" parent="QWxD-bKKWiwJYX4_kgw--21">
+          <mxGeometry width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--8" value="call forkchoice_updated_v1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="QWxD-bKKWiwJYX4_kgw--20">
+          <mxGeometry width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--9" value="call forkchoice_updated_v2" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="QWxD-bKKWiwJYX4_kgw--20">
+          <mxGeometry x="220" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QWxD-bKKWiwJYX4_kgw--7" target="QWxD-bKKWiwJYX4_kgw--8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--18" value="no" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QWxD-bKKWiwJYX4_kgw--17">
+          <mxGeometry x="-0.0001" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" y="19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="QWxD-bKKWiwJYX4_kgw--7" target="QWxD-bKKWiwJYX4_kgw--9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--19" value="yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QWxD-bKKWiwJYX4_kgw--16">
+          <mxGeometry x="0.1148" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QWxD-bKKWiwJYX4_kgw--22" value="call BeaconChain::update_execution_engine_forkchoice" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="283.75" y="180" width="297.5" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
