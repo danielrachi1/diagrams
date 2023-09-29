@@ -5,82 +5,8 @@
   "elements": [
     {
       "type": "rectangle",
-      "version": 307,
-      "versionNonce": 660311605,
-      "isDeleted": false,
-      "id": "8TI4LzbyjLlPlhsHrzXSD",
-      "fillStyle": "hachure",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "angle": 0,
-      "x": 1400,
-      "y": -100,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
-      "width": 199.9999999999999,
-      "height": 200,
-      "seed": 2017557366,
-      "groupIds": [],
-      "frameId": null,
-      "roundness": {
-        "type": 3
-      },
-      "boundElements": [
-        {
-          "type": "text",
-          "id": "roF1uqp78iVnETMXdN2L8"
-        },
-        {
-          "id": "7v2tesaKAph77MZbb2zkf",
-          "type": "arrow"
-        }
-      ],
-      "updated": 1695958627966,
-      "link": null,
-      "locked": false
-    },
-    {
-      "type": "text",
-      "version": 427,
-      "versionNonce": 1997374261,
-      "isDeleted": false,
-      "id": "roF1uqp78iVnETMXdN2L8",
-      "fillStyle": "hachure",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "angle": 0,
-      "x": 1412.03125,
-      "y": -12,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
-      "width": 175.9375,
-      "height": 24,
-      "seed": 813920438,
-      "groupIds": [],
-      "frameId": null,
-      "roundness": null,
-      "boundElements": [],
-      "updated": 1695958666393,
-      "link": null,
-      "locked": false,
-      "fontSize": 20,
-      "fontFamily": 3,
-      "text": "Lighthouse Main",
-      "textAlign": "center",
-      "verticalAlign": "middle",
-      "containerId": "8TI4LzbyjLlPlhsHrzXSD",
-      "originalText": "Lighthouse Main",
-      "lineHeight": 1.2,
-      "baseline": 20
-    },
-    {
-      "type": "rectangle",
-      "version": 699,
-      "versionNonce": 343084309,
+      "version": 700,
+      "versionNonce": 1074173877,
       "isDeleted": false,
       "id": "tGkoPgZL0FKK4w7lTojh1",
       "fillStyle": "hachure",
@@ -105,13 +31,9 @@
         {
           "type": "text",
           "id": "01ZuI-smR9IlKIMed-D3c"
-        },
-        {
-          "id": "7v2tesaKAph77MZbb2zkf",
-          "type": "arrow"
         }
       ],
-      "updated": 1695958627966,
+      "updated": 1695958986404,
       "link": null,
       "locked": false
     },
@@ -150,58 +72,6 @@
       "originalText": "Build ClientConfig from CLI args",
       "lineHeight": 1.2,
       "baseline": 68
-    },
-    {
-      "type": "arrow",
-      "version": 875,
-      "versionNonce": 1125261909,
-      "isDeleted": false,
-      "id": "7v2tesaKAph77MZbb2zkf",
-      "fillStyle": "hachure",
-      "strokeWidth": 1,
-      "strokeStyle": "solid",
-      "roughness": 1,
-      "opacity": 100,
-      "angle": 0,
-      "x": 1600,
-      "y": 0,
-      "strokeColor": "#1e1e1e",
-      "backgroundColor": "transparent",
-      "width": 100,
-      "height": 100,
-      "seed": 1274592106,
-      "groupIds": [],
-      "frameId": null,
-      "roundness": {
-        "type": 2
-      },
-      "boundElements": [],
-      "updated": 1695958661257,
-      "link": null,
-      "locked": false,
-      "startBinding": {
-        "elementId": "8TI4LzbyjLlPlhsHrzXSD",
-        "focus": 0,
-        "gap": 1
-      },
-      "endBinding": {
-        "elementId": "tGkoPgZL0FKK4w7lTojh1",
-        "focus": 0,
-        "gap": 1
-      },
-      "lastCommittedPoint": null,
-      "startArrowhead": null,
-      "endArrowhead": "arrow",
-      "points": [
-        [
-          0,
-          0
-        ],
-        [
-          100,
-          0
-        ]
-      ]
     },
     {
       "type": "rectangle",
